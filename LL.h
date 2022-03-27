@@ -1,10 +1,11 @@
 class LL{
-      NODE*hol; //monster
-      int size;
+  monster* hol;
+  int size;
 public:
-       void add_node(NODE*&);
-       void show_all();
-       ~LL();
-       LL();
-      
-}; 
+  void add_monster(monster*&);
+  void show_all();
+  void atk_All(monster*&);
+  void atk_all(monster*&);
+  LL();
+  ~LL();
+};
